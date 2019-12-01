@@ -1,0 +1,36 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pipeline.srcs/sources_1/new/Jump.v" \
+"../../../../Pipeline.srcs/sources_1/new/adder0.v" \
+"../../../../Pipeline.srcs/sources_1/new/alu.v" \
+"../../../../Pipeline.srcs/sources_1/new/and0.v" \
+"../../../../Pipeline.srcs/sources_1/new/comparator0.v" \
+"../../../../Pipeline.srcs/sources_1/new/concat0.v" \
+"../../../../Pipeline.srcs/sources_1/new/control_unit.v" \
+"../../../../Pipeline.srcs/sources_1/new/data_memory.v" \
+"../../../../Pipeline.srcs/sources_1/new/hazard_unit.v" \
+"../../../../Pipeline.srcs/sources_1/new/instruction_memory.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux0.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux1.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux2.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux3.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux4.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux5.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux6.v" \
+"../../../../Pipeline.srcs/sources_1/new/mux7.v" \
+"../../../../Pipeline.srcs/sources_1/new/or0.v" \
+"../../../../Pipeline.srcs/sources_1/new/pipeline0.v" \
+"../../../../Pipeline.srcs/sources_1/new/pipeline1.v" \
+"../../../../Pipeline.srcs/sources_1/new/pipeline2.v" \
+"../../../../Pipeline.srcs/sources_1/new/pipeline3.v" \
+"../../../../Pipeline.srcs/sources_1/new/program_counter.v" \
+"../../../../Pipeline.srcs/sources_1/new/register_file.v" \
+"../../../../Pipeline.srcs/sources_1/new/sign_extension.v" \
+"../../../../Pipeline.srcs/sources_1/new/top_module.v" \
+"../../../../Pipeline.srcs/sim_1/new/tesbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
